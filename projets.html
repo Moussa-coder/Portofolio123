@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Moussa Kathieuness Correa">
+    <meta name="description" content="Projets de Moussa Kathieuness Correa - Développeur Full Stack et Data Analyste">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Moussa Kathieuness Correa</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/projets.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation stylée -->
+    <header class="glass-nav">
+        <nav class="container">
+            <a href="index.html" class="logo">MKC</a>
+            <ul class="nav-links">
+                <li><a href="A propos.html" class="nav-item">A propos</a></li>
+                <li><a href="projets.html" class="nav-item active">Projets</a></li>
+                <li><a href="competences.html" class="nav-item">Expertise</a></li>
+                <li><a href="contact.html" class="cta-button">Contact</a></li>
+            </ul>
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Projets -->
+    <section class="projects-section">
+        <div class="container">
+            <h1 class="section-title">Mes Projets</h1>
+            
+            <!-- Filtres -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="data">Data</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <!-- Grille de projets -->
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="Assets/Screenshot 2025-11-20 193601.png" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir le projet">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-github" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Plateforme E-commerce</h3>
+                        <p>Application web complète de commerce électronique avec gestion de panier, paiement en ligne et tableau de bord administrateur.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card" data-category="data">
+                    <div class="project-image">
+                        <img src="Assets/Screenshot 2025-11-20 183201.png" alt="Analytics Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Voir le projet">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-github" title="Code source">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Dashboard Analytics avec Power BI</h3>
+                        <p>Analyse des accidents de la route .</p>
+                        <div class="project-tags">
+                            <span>Power BI</span>
+                            <span>SQL</span>
+                            <span>Excel</span>
+                        </div>
+                    </div>
+                </div>
+
+               
+            <!-- Section GitHub -->
+            <div class="github-section">
+                <div class="github-content">
+                    <i class="fab fa-github github-icon"></i>
+                    <h2>Découvrez tous mes projets sur GitHub</h2>
+                    <p>Vous souhaitez voir plus de projets et accéder au code source ? Visitez mon profil GitHub où vous trouverez tous mes projets et contributions.</p>
+                    <a href="https://github.com/Moussa-coder" target="_blank" rel="noopener noreferrer" class="github-button">
+                        <i class="fab fa-github"></i>
+                        Visiter mon GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>© 2024 Moussa Kathieuness Correa. Tous droits réservés</p>
+        </div>
+    </footer>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/projets.js"></script>
+</body>
+</html>
